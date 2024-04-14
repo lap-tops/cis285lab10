@@ -1,7 +1,7 @@
 package cis285Lab10;
 
 public class SelectionSort {
-    private int tempo;
+    private int temp;
 
     /** Creates a new instance of SelectionSort */
     public SelectionSort() {
