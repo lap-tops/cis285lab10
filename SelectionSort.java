@@ -1,7 +1,7 @@
 package cis285Lab10;
 
 public class SelectionSort {
-    private int tempo;
+    private int temp;
 
     /** Creates a new instance of SelectionSort */
     public SelectionSort() {
@@ -19,9 +19,9 @@ public class SelectionSort {
         for (int i = 0; i < x.length; ++i) {
             for (int j = i + 1; j < x.length; ++j) {
                 if (x[i] > x[j]) {
-                    tempo = x[i];
+                    temp = x[i];
                     x[i] = x[j];
-                    x[j] = tempo;
+                    x[j] = temp;
                 }
             } // end of inner for loop
         } // end of outer for loop
